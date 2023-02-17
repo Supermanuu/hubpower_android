@@ -1,0 +1,3 @@
+[submodule "hubpower"]
+	path = hubpower
+	url = git@ssh.dev.azure.com:v3/SEDECAL-SALAS/Lenovo%20Tab%20K10/hubpower

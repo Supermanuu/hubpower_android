@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  build:
+    image: sraillard/alpine-android-ndk:r18
+    command: ndk-build
+    volumes:
+      - ./:/source
+    working_dir: /source
+  clean:
+    image: sraillard/alpine-android-ndk:r18
+    command: ndk-build clean
+    volumes:
+      - ./:/source
+    working_dir: /source
